@@ -1,0 +1,34 @@
+.nav {
+    color: #f3ffea;
+    grid-area: n;
+    padding: 15px;
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f3ffea;
+    font-size: 40px;
+}
+
+.item{
+    padding: 7px;
+    font-size: 23px;
+}
+.item a{
+    color: PaleGreen;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: gold;
+}
+
+.button {
+    text-decoration: none;
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    font: normal 27px arial;
+}
+
+

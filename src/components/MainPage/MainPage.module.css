@@ -1,0 +1,38 @@
+.mainPage{
+
+}
+.pic{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.pic img{
+    height: 270px;
+    margin-top: 5px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.quote{
+    color: darkgreen;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.button {
+    width: 370px;
+    height: 65px;
+    background-color: limegreen;
+    text-decoration: none;
+    padding-top: 9px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 30px arial;
+    border-radius: 8px;
+}
+
+li{
+    font-size: 18px;
+}

@@ -1,0 +1,56 @@
+button {
+    width: 250px;
+    height:50px;
+    background-color: darkgreen;
+    text-decoration: none;
+    padding-top: 9px;
+    color: darkorange;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 25px arial;
+    border-radius: 8px;
+}
+
+select{
+    width: 280px;
+    height:50px;
+    font: normal 20px arial;
+}
+
+.name{
+    width: 280px;
+    height:50px;
+    font-size: 18px;
+}
+
+.category{
+    width: 280px;
+    height:50px;
+    font-size: 18px;
+}
+
+.test{
+    padding: 2px;
+}
+
+label{
+    padding-top: 2px;
+    padding-left: 3px;
+}
+
+.link{
+    width: 370px;
+    height: 65px;
+    background-color: limegreen;
+    text-decoration: none;
+    padding-top: 9px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 30px arial;
+    border-radius: 8px;
+}

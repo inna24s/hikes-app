@@ -1,0 +1,59 @@
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+th {
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+
+td {
+    vertical-align: middle;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid ;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.name{
+    width: 280px;
+    height:50px;
+    font-size: 18px;
+}
+
+.link{
+    width: 370px;
+    height: 65px;
+    background-color: limegreen;
+    text-decoration: none;
+    padding-top: 9px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 30px arial;
+    border-radius: 8px;
+}
+
+.button{
+    width: 500px;
+    height: 150px;
+    background-color: limegreen;
+    text-decoration: none;
+    padding-top: 9px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 60px arial;
+    border-radius: 8px;
+}

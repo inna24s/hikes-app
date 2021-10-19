@@ -1,0 +1,48 @@
+.header {
+    grid-area: h;
+    display: grid;
+    grid-template-areas:
+            "pic phone"
+            "pic place";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 10fr 3fr;
+    color: #f3ffea;
+    font-size: 30px;
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f3ffea;
+}
+
+.header img{
+    padding: 8px;
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+}
+
+.pic{
+    grid-area: pic;
+}
+
+.phone {
+    grid-area: phone;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.phone img{
+    width: 35px;
+    height: 35px;
+}
+
+.place {
+    grid-area: place;
+    font-size: 18px;
+}
+
+.place img{
+    width: 35px;
+    height: 35px;
+}
+
